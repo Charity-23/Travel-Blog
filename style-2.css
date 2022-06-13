@@ -1,0 +1,103 @@
+        :root {
+            --primary: hsla(192, 70%, 60%, 0.541);
+            --secondary: hsla(184, 90%, 68%, 0.425);
+        }
+        body {
+            background-color: hsl(180, 25%, 25%);
+            border-radius: 20px;
+        }
+        main {
+            background: linear-gradient(80deg, var(--primary), var(--secondary)),
+                        url(swowforest2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 90%;
+            height: 100vh;
+            margin: auto;
+            margin-top: 9vh;
+            border-radius: 20px;
+        } 
+        nav {
+            display: flex;
+            justify-content: space-around;
+        }
+        h3 {
+            background-color: white;
+            padding: 5px;
+            width: 100px;
+            box-sizing: content-box;
+            color: cadetblue;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 45px;
+        }
+        ul li i {
+            color: cadetblue;
+            background-color: white;
+            border-radius: 50%;
+            border: 1px solid white;
+            padding: 10px;
+        }
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            font-size: 70px;
+            font-weight: 600;
+        }        
+        li {
+            list-style: none;
+        }
+        ul li a{
+            color: white;
+            text-decoration: none;
+        }
+        .box {
+            display: flex;
+            gap: 50px;
+            color: white;
+            position: relative;
+
+        }
+        p.normal {
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            font-size: 15px;
+            font-weight: 100;
+        }
+        p.style {
+            color: hsl(180, 25%, 25%);
+            padding: 25px;
+            background-color: white;
+            box-sizing: content-box;
+            width: 230px;
+            justify-items: center;
+            border-radius: 20px;
+        }
+        div {
+            margin-left: 115px;
+            margin-top: 50px;
+        }
+        .container {
+            display: flex;
+            justify-content: flex-end;
+            position: relative;
+            bottom: 45px;
+            gap: 15px;
+        }
+      /*  .img1 { 
+            position: relative;
+            bottom: 90px;
+        }
+        .img2 {
+            position: relative;
+            right: 10px;
+            bottom: 90px;
+        }
+        .img3 {
+            bottom: 90;
+        } */
+    
